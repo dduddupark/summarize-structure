@@ -16,6 +16,7 @@ Dagger2, Retrofit3+OkHttp3, RxJava2
 Koin, Coruntine, LiveData, ViewModel
  
 장점 : databinding 사용가능(livedata, viewmodel과 묶어 활용하면 더욱 더 효과 극대화)
+
 단점 : 웬만한 코드는 전부 Kotlin으로 바꿔야한다.
 
 
