@@ -34,9 +34,8 @@ Koin, Coruntine, LiveData, ViewModel
 구글은 이 고민을 줄이기 위해 SDK에서 제공하는 컴포넌트들에 대해 개발자들에게 더 가이드를 주기를 원했습니다.
 그래서 Android Architecture Components(AAC)를 만들었습니다.
 
-여기서 중요한것은 
-
-https://blog.kakaocdn.net/dn/b1WEWl/btqFK3PZ9oR/Zf0MW7IZfKT2d8bFZs3yX1/img.jpg
+![image](https://github.com/dduddupark/summarize-structure/blob/main/image.png)
+**각 계층에 접근 하고 싶으면 interface를 통해 접근해야한다.**
 
 Clean Architecture란?
 
