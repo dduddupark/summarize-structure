@@ -37,7 +37,10 @@ Koin, Coruntine, LiveData, ViewModel
 ![image](https://github.com/dduddupark/summarize-structure/blob/main/image.png)
 **각각의 계층에 접근 하고 싶으면 interface를 통해 접근해야한다.**
 
-Clean Architecture란?
+**clean arcitecture 장점 :
+결합성이 낮아지며
+각 레이어의 쉬운 테스트
+구조를 파악하면 쉬운 유지보수**
 
 https://k-elon.tistory.com/38
 
