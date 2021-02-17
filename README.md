@@ -21,9 +21,7 @@ Koin, Coruntine, LiveData, ViewModel
 
 ### 기초 지식
 
-(1) AAC(Android Architecture Components)
-
-* AAC에 대한 설명
+* AAC(Android Architecture Components)
 
 안드로이드는 Activity, BroadcastReceiver, Service, ContentProvider 등 여러 컴포넌트들이 있고,
 생명주기가 다르게 얽혀있습니다.
@@ -34,14 +32,12 @@ Koin, Coruntine, LiveData, ViewModel
 
 https://medium.com/@maryangmin/android-architecture-components-%EC%86%8C%EA%B0%9C-1-8e04491be1f6
 
-* 안드로이드 공식 홈페이지 문서
+안드로이드 공식 홈페이지 문서
 
 https://developer.android.com/topic/libraries/architecture
 
 
-(2) MVC, MVP, MVVM
-
-* MVC, MVP, MVVM에 대한 설명
+* MVC, MVP, MVVM
 
 MVC : View와 Model 사이의 의존도가 높아 유지보수가 어렵다.(비추천)
 
@@ -52,27 +48,49 @@ MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 �
 https://beomy.tistory.com/43
 
 
-(3) 비동기 프로그래밍
+*  비동기 프로그래밍
 비동기 프로그래밍을 쉽게 도와주는 라이브러리는 2가지가 있다.
 이 라이브러리를 사용하여 주로 서버 api를 호출할때 사용한다.
 
 Java-RxJava2 / Kotlin-Corountine(RxKotlin도 있으나 android에선 coroutine을 권장)
 
-* RxJava2와 Coroutine
+RxJava2와 Coroutine
 https://thdev.tech/android/2019/11/30/RxJava-Corotuines-01/
 
-* Kotlin의 Coroutine
+Kotlin의 Coroutine
 https://medium.com/hongbeomi-dev/coroutines-basic-e32053f18fdf
 
-* Rx 기초
+Rx 기초
 https://k-elon.tistory.com/1
 
-* RxJava2 기초
+RxJava2 기초
 https://taeiim.tistory.com/entry/RxJava2-2-Observable-Single-Maybe-%EB%9C%A8%EA%B1%B0%EC%9A%B4%EC%B0%A8%EA%B0%80%EC%9A%B4-Observable-%ED%8C%A9%ED%86%A0%EB%A6%AC%ED%95%A8%EC%88%98
 
-* RxJava2 책 추천
+RxJava2 책 추천
 http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=269172314
 
+*  Retrofit2 + OkHttp3
+
+https://jongmin92.github.io/2018/01/29/Programming/android-retrofit2-okhttp3/
+
+*  Dagger2
+
+dagger2 기초
+
+https://medium.com/@maryangmin/di-%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%82%AC%EC%9A%A9%EB%B2%95%EA%B9%8C%EC%A7%80-dagger2-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-3332bb93b4b9
+
+우아한 형제들의 기술 블로그
+
+https://woowabros.github.io/experience/2019/07/31/android-dagger.html
+
+
+*  DataBinding
+
+안드로이드 공식 홈페이지 사용가이드
+https://developer.android.com/topic/libraries/data-binding/?hl=ko
+
+DataBinding 응용
+https://superwony.tistory.com/43?category=735973
 
 
 ### 참고자료
