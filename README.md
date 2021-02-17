@@ -44,7 +44,9 @@ https://developer.android.com/topic/libraries/architecture
 * MVC, MVP, MVVM에 대한 설명
 
 MVC : View와 Model 사이의 의존도가 높아 유지보수가 어렵다.(비추천)
+
 MVP : MVC와 달리 하는 일이 서로 분리 되었으나 View와 Presenter가 1:1 관계라서 밀접한 관계를 갖는다.(괜찮다고 생각함. 현재는 모르겠으나 배민도 mvp구조였었음)
+
 MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 없앴다. (안드로이드에선 Good)
 
 https://beomy.tistory.com/43
@@ -62,14 +64,34 @@ https://thdev.tech/android/2019/11/30/RxJava-Corotuines-01/
 * Kotlin의 Coroutine
 https://medium.com/hongbeomi-dev/coroutines-basic-e32053f18fdf
 
-→ 참고할 프
+→ 참고할 프로젝트
+
+[안드로이드 기본 제공만 사용하여 구조짜기]
+
+https://github.com/dduddupark/assignment0608
+
+[카카오커머스 과제]
+
+https://github.com/dduddupark/kakaoimage
+
 
 * Rx 기초
 https://k-elon.tistory.com/1
+
 * RxJava2 기초
 https://taeiim.tistory.com/entry/RxJava2-2-Observable-Single-Maybe-%EB%9C%A8%EA%B1%B0%EC%9A%B4%EC%B0%A8%EA%B0%80%EC%9A%B4-Observable-%ED%8C%A9%ED%86%A0%EB%A6%AC%ED%95%A8%EC%88%98
+
 * RxJava2 책 추천
 http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=269172314
 
 
+→ 참고할 프로젝트
+
+[Dagger2 + Retrofit2 + OkHttp3 + RxJava + MVP 구조]
+
+https://github.com/dduddupark/MVP
+
+[Dagger2 + Retrofit2 + OkHttp3 + RxJava + MVVM 구조]
+
+https://github.com/dduddupark/MvvmArchitecture
 
