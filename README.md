@@ -5,13 +5,13 @@
 
 현재 프로젝트는 Java(90%) + Kotlin(10%) 구성되어있다.
 
-1. Java + Kotlin을 유지하면서 사용할 경우 사용해야할 것
+(1) Java + Kotlin을 유지하면서 사용할 경우 사용해야할 것
 
 Dagger2, Retrofit3+OkHttp3, RxJava2
 
 단점 : Dagger2와 RxJava2는 학습 곡선이 높다. 
 
-2. Kotiln 100%를 사용할 경우 사용해야할 것
+(2) Kotiln 100%를 사용할 경우 사용해야할 것
 
 Koin, Coruntine, LiveData, ViewModel
  
@@ -21,7 +21,7 @@ Koin, Coruntine, LiveData, ViewModel
 
 ### 기초 지식
 
-1. AAC(Android Architecture Components)
+(1) AAC(Android Architecture Components)
 
 * AAC에 대한 설명
 
@@ -35,12 +35,14 @@ Koin, Coruntine, LiveData, ViewModel
 https://medium.com/@maryangmin/android-architecture-components-%EC%86%8C%EA%B0%9C-1-8e04491be1f6
 
 * 안드로이드 공식 홈페이지 문서
+
 https://developer.android.com/topic/libraries/architecture
 
 
-2. MVC, MVP, MVVM
+(2) MVC, MVP, MVVM
 
 * MVC, MVP, MVVM에 대한 설명
+
 MVC : View와 Model 사이의 의존도가 높아 유지보수가 어렵다.(비추천)
 MVP : MVC와 달리 하는 일이 서로 분리 되었으나 View와 Presenter가 1:1 관계라서 밀접한 관계를 갖는다.(괜찮다고 생각함. 현재는 모르겠으나 배민도 mvp구조였었음)
 MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 없앴다. (안드로이드에선 Good)
@@ -48,7 +50,7 @@ MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 �
 https://beomy.tistory.com/43
 
 
-3. 비동기 프로그래밍
+(3) 비동기 프로그래밍
 비동기 프로그래밍을 쉽게 도와주는 라이브러리는 2가지가 있다.
 이 라이브러리를 사용하여 주로 서버 api를 호출할때 사용한다.
 
