@@ -34,7 +34,17 @@ Koin, Coruntine, LiveData, ViewModel
 구글은 이 고민을 줄이기 위해 SDK에서 제공하는 컴포넌트들에 대해 개발자들에게 더 가이드를 주기를 원했습니다.
 그래서 Android Architecture Components(AAC)를 만들었습니다.
 
-https://medium.com/@maryangmin/android-architecture-components-%EC%86%8C%EA%B0%9C-1-8e04491be1f6
+여기서 중요한것은 
+
+https://blog.kakaocdn.net/dn/b1WEWl/btqFK3PZ9oR/Zf0MW7IZfKT2d8bFZs3yX1/img.jpg
+
+Clean Architecture란?
+
+https://k-elon.tistory.com/38
+
+Android Architecture Components를 활용하여 MVVM 적용하기
+
+https://blog.gangnamunni.com/post/aac_mvvm/
 
 안드로이드 공식 홈페이지 문서
 
@@ -92,9 +102,11 @@ https://woowabros.github.io/experience/2019/07/31/android-dagger.html
 *  **DataBinding**
 
 안드로이드 공식 홈페이지 사용가이드
+
 https://developer.android.com/topic/libraries/data-binding/?hl=ko
 
 DataBinding 응용
+
 https://superwony.tistory.com/43?category=735973
 
 
