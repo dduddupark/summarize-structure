@@ -1,10 +1,9 @@
-# summarize-structure
+## summarize-structure
 안드로이드 프로젝트 구조를 위해 사용한 라이브러리나 기본 지식을 정리합니다.
 
-2021-02-07 우리 프로젝트를 위해 해야할 일
+### 리펙토링
 
-[Refactorying]
-- 현재 프로젝트는 Java(90%) + Kotlin(10%) 구성되어있다.
+현재 프로젝트는 Java(90%) + Kotlin(10%) 구성되어있다.
 
 1. Java + Kotlin을 유지하면서 사용할 경우 사용해야할 것
 
@@ -20,11 +19,12 @@ Koin, Coruntine, LiveData, ViewModel
 단점 : 웬만한 코드는 전부 Kotlin으로 바꿔야한다.
 
 
-[기초 지식]
+### 기초 지식
 
 1. AAC(Android Architecture Components)
 
-/**AAC에 대한 설명**/
+* AAC에 대한 설명
+
 안드로이드는 Activity, BroadcastReceiver, Service, ContentProvider 등 여러 컴포넌트들이 있고,
 생명주기가 다르게 얽혀있습니다.
 앱을 잘 만들기 위해서는 이러한 컴포넌트들을 부드럽게 연결해야 하는데,
@@ -34,13 +34,13 @@ Koin, Coruntine, LiveData, ViewModel
 
 https://medium.com/@maryangmin/android-architecture-components-%EC%86%8C%EA%B0%9C-1-8e04491be1f6
 
-/**안드로이드 공식 홈페이지 문서**/
+* 안드로이드 공식 홈페이지 문서
 https://developer.android.com/topic/libraries/architecture
 
 
 2. MVC, MVP, MVVM
 
-/**MVC, MVP, MVVM에 대한 설명**/
+* MVC, MVP, MVVM에 대한 설명
 MVC : View와 Model 사이의 의존도가 높아 유지보수가 어렵다.(비추천)
 MVP : MVC와 달리 하는 일이 서로 분리 되었으나 View와 Presenter가 1:1 관계라서 밀접한 관계를 갖는다.(괜찮다고 생각함. 현재는 모르겠으나 배민도 mvp구조였었음)
 MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 없앴다. (안드로이드에선 Good)
@@ -54,19 +54,19 @@ https://beomy.tistory.com/43
 
 Java-RxJava2 / Kotlin-Corountine(RxKotlin도 있으나 android에선 coroutine을 권장)
 
-/**RxJava2와 Coroutine**/
+* RxJava2와 Coroutine
 https://thdev.tech/android/2019/11/30/RxJava-Corotuines-01/
 
-/**Kotlin의 Coroutine**/
+* Kotlin의 Coroutine
 https://medium.com/hongbeomi-dev/coroutines-basic-e32053f18fdf
 
 → 참고할 프
 
-/**Rx 기초**/
+* Rx 기초
 https://k-elon.tistory.com/1
-/**RxJava2 기초**/
+* RxJava2 기초
 https://taeiim.tistory.com/entry/RxJava2-2-Observable-Single-Maybe-%EB%9C%A8%EA%B1%B0%EC%9A%B4%EC%B0%A8%EA%B0%80%EC%9A%B4-Observable-%ED%8C%A9%ED%86%A0%EB%A6%AC%ED%95%A8%EC%88%98
-/**RxJava2 책 추천**/
+* RxJava2 책 추천
 http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=269172314
 
 
