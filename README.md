@@ -1,6 +1,8 @@
 ## summarize-structure
 안드로이드 프로젝트 구조를 위해 사용한 라이브러리나 기본 지식을 정리합니다.
 
+---------
+
 ### 리펙토링
 
 현재 프로젝트는 Java(90%) + Kotlin(10%) 구성되어있다.
@@ -19,10 +21,11 @@ Koin, Coruntine, LiveData, ViewModel
 
 단점 : 웬만한 코드는 전부 Kotlin으로 바꿔야한다.
 
+---------
 
 ### 기초 지식
 
-* AAC(Android Architecture Components)
+* **AAC(Android Architecture Components)**
 
 안드로이드는 Activity, BroadcastReceiver, Service, ContentProvider 등 여러 컴포넌트들이 있고,
 생명주기가 다르게 얽혀있습니다.
@@ -38,7 +41,7 @@ https://medium.com/@maryangmin/android-architecture-components-%EC%86%8C%EA%B0%9
 https://developer.android.com/topic/libraries/architecture
 
 
-* MVC, MVP, MVVM
+* **MVC, MVP, MVVM**
 
 MVC : View와 Model 사이의 의존도가 높아 유지보수가 어렵다.(비추천)
 
@@ -49,7 +52,7 @@ MVVM : Data Binding을 이용하여 View와 View Model 사이의 의존성을 �
 https://beomy.tistory.com/43
 
 
-*  비동기 프로그래밍
+*  **비동기 프로그래밍**
 비동기 프로그래밍을 쉽게 도와주는 라이브러리는 2가지가 있다.
 이 라이브러리를 사용하여 주로 서버 api를 호출할때 사용한다.
 
@@ -74,7 +77,7 @@ http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=2691723
 
 https://jongmin92.github.io/2018/01/29/Programming/android-retrofit2-okhttp3/
 
-*  Dagger2
+*  **Dagger2**
 
 dagger2 기초
 
@@ -85,7 +88,7 @@ https://medium.com/@maryangmin/di-%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90%EB%B6%80%
 https://woowabros.github.io/experience/2019/07/31/android-dagger.html
 
 
-*  DataBinding
+*  **DataBinding**
 
 안드로이드 공식 홈페이지 사용가이드
 https://developer.android.com/topic/libraries/data-binding/?hl=ko
@@ -93,6 +96,8 @@ https://developer.android.com/topic/libraries/data-binding/?hl=ko
 DataBinding 응용
 https://superwony.tistory.com/43?category=735973
 
+
+---------
 
 ### 참고자료
 
