@@ -35,7 +35,7 @@ Koin, Coruntine, LiveData, ViewModel
 그래서 Android Architecture Components(AAC)를 만들었습니다.
 
 ![image](https://github.com/dduddupark/summarize-structure/blob/main/image.png)
-**각 계층에 접근 하고 싶으면 interface를 통해 접근해야한다.**
+**각각의 계층에 접근 하고 싶으면 interface를 통해 접근해야한다.**
 
 Clean Architecture란?
 
