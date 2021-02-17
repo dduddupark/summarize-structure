@@ -64,17 +64,6 @@ https://thdev.tech/android/2019/11/30/RxJava-Corotuines-01/
 * Kotlin의 Coroutine
 https://medium.com/hongbeomi-dev/coroutines-basic-e32053f18fdf
 
-→ 참고할 프로젝트
-
-[안드로이드 기본 제공만 사용하여 구조짜기]
-
-https://github.com/dduddupark/assignment0608
-
-[카카오커머스 과제]
-
-https://github.com/dduddupark/kakaoimage
-
-
 * Rx 기초
 https://k-elon.tistory.com/1
 
@@ -85,7 +74,18 @@ https://taeiim.tistory.com/entry/RxJava2-2-Observable-Single-Maybe-%EB%9C%A8%EA%
 http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=269172314
 
 
+
+### 참고자료
+
 → 참고할 프로젝트
+
+[안드로이드 기본 제공만 사용하여 구조짜기]
+
+https://github.com/dduddupark/assignment0608
+
+[카카오커머스 과제 Kotlin + Corountin + Dagger2 + Retrofit2 + OkHttp3 + MVVM]
+
+https://github.com/dduddupark/kakaoimage
 
 [Dagger2 + Retrofit2 + OkHttp3 + RxJava + MVP 구조]
 
