@@ -53,6 +53,7 @@ https://beomy.tistory.com/43
 
 
 *  **비동기 프로그래밍**
+
 비동기 프로그래밍을 쉽게 도와주는 라이브러리는 2가지가 있다.
 이 라이브러리를 사용하여 주로 서버 api를 호출할때 사용한다.
 
@@ -73,7 +74,7 @@ https://taeiim.tistory.com/entry/RxJava2-2-Observable-Single-Maybe-%EB%9C%A8%EA%
 RxJava2 책 추천
 http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=269172314
 
-*  Retrofit2 + OkHttp3
+*  **Retrofit2 + OkHttp3**
 
 https://jongmin92.github.io/2018/01/29/Programming/android-retrofit2-okhttp3/
 
